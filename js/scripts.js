@@ -9,9 +9,9 @@ $(document).ready(function() {
         $(".person1").text(person1Input);
         $(".person2").text(person2Input);
         $(".animal").text(animalInput);
-        $(".exclamation").append(exclamationInput);
-        $(".verb").append(verbInput);
-        $(".noun").append(nounInput);
+        $(".exclamation").text(exclamationInput);
+        $(".verb").text(verbInput);
+        $(".noun").text(nounInput);
 
 
         $("#story").show();
